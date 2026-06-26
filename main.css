@@ -66,8 +66,8 @@ video {
 
 .right-column {
   flex: 1;
-  background-color: thistle;
-  border: 3px solid #546880;
+  background-color: #ffe7E6;
+  border: 3px solid #B46A72;
   border-radius: 30px;
   padding: 1rem;
   text-align: center;
@@ -94,7 +94,7 @@ video {
 }
 
 .wrapper {
-  background-image: url(images/lace.jpg);
+  background-image: url(images/laceback.jpeg);
   border: 2px solid #546880;
 
   max-width: 900 px;
@@ -222,7 +222,7 @@ main h2 {
 
 main {
 
-  background-color: #f0f3f3;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
