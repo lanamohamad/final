@@ -1,17 +1,54 @@
 body{
-  background-color: #d79aaca5;
+  background-color: #b97d7B;
   font-family: "Montserrat", sans-serif;
-  
+  color: #933b5b;
 }
 .contentbox {
-    background-color: #c6b6b6;
-    border: 2px solid #546880;
+    background-color: #ecc4c3;
+    border: 2px solid #b97d7B;
     border-radius: 20px;
     padding: 2rem;
     margin: 2rem;
     max-width: 900px;
 }
+.two-column-page{
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
 
+.left-column {
+  flex: 2;
+}
+
+.right-column {
+  flex: 1;
+  background-color: thistle;
+  border: 3px solid #546880;
+  border-radius: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.right-column h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.right-column figure {
+  margin: 1rem 0;
+}
+
+.right-column img {
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid white;
+}
+
+.right-column figcaption {
+  font-size: 0.9rem;
+  line-height: 1;
+}
 .wrapper{
   background-color: white; border: 2px solid #546880;
   
@@ -125,11 +162,17 @@ nav a:hover::before {
 main h2{
   text-decoration: underline;
   border-radius: 10px;
-  border: 4px solid #546880;
+  border: 1px solid #e2f2e8;
   text-align: center;
-  background-image: url(images/background.jpeg);
+  background-image: url(images/pearl.png);
   text-shadow: black;
   
+}
+main {
+    background-color: #f0f3f3;
+    background-size: cover;      
+    background-repeat: no-repeat;
+    background-position: center;
 }
 header h2{
   font-size: 200;
