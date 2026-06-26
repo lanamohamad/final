@@ -21,6 +21,20 @@ body {
   border: none;
   background: none;
 }
+a {
+  color: #e1415e;      
+  text-decoration: underline;
+  font-style: italic ;
+  
+}
+
+a:visited {
+  color: #8d3b6b;      
+}
+
+a:hover {
+  color: #f0739b70;      
+}
 
 .video-box video {
   width: 40%;
@@ -80,7 +94,7 @@ video {
 }
 
 .wrapper {
-  background-color: white;
+  background-image: url(images/lace.jpg);
   border: 2px solid #546880;
 
   max-width: 900 px;
